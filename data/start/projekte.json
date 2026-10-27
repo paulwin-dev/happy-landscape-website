@@ -1,32 +1,34 @@
-[
+{
+  "Projekte": [
     {
         "Titel": "Placeholder",
         "Beschreibung": "Placeholder",
-        "Foto": "data/photos/start/projekte/Garten.jpg"
+        "Foto": "/images/uploads/Garten.jpg"
     },
     {
         "Titel": "Placeholder",
         "Beschreibung": "Placeholder",
-        "Foto": "data/photos/start/projekte/Garten.jpg"
+        "Foto": "/images/uploads/Garten.jpg"
     },
     {
         "Titel": "Placeholder",
         "Beschreibung": "Placeholder",
-        "Foto": "data/photos/start/projekte/Garten.jpg"
+        "Foto": "/images/uploads/Garten.jpg"
     },
     {
         "Titel": "Placeholder",
         "Beschreibung": "Placeholder",
-        "Foto": "data/photos/start/projekte/Garten.jpg"
+        "Foto": "/images/uploads/Garten.jpg"
     },
     {
         "Titel": "Placeholder",
         "Beschreibung": "Placeholder",
-        "Foto": "data/photos/start/projekte/Garten.jpg"
+        "Foto": "/images/uploads/Garten.jpg"
     },
     {
         "Titel": "Placeholder",
         "Beschreibung": "Placeholder",
-        "Foto": "data/photos/start/projekte/Garten.jpg"
+        "Foto": "/images/uploads/Garten.jpg"
     }
-]
+  ]
+}

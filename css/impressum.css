@@ -9,7 +9,7 @@
     padding: 140px 6vw 72px;
     background:
         linear-gradient(rgba(10, 30, 12, .58), rgba(10, 30, 12, .52)),
-        url("../data/photos/start/start.jpg") center 48% / cover no-repeat;
+        url("../images/uploads/start.jpg") center 48% / cover no-repeat;
 }
 
 .legal-hero__content {

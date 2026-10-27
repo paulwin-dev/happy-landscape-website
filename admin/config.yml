@@ -4,17 +4,21 @@ backend:
   branch: main
   base_url: https://decap-proxy.happy-landscape-oauth-proxy.workers.dev/   # see step 2
 
-media_folder: "images/uploads"     # where uploads are saved in the repo
-public_folder: "/images/uploads"   # how they're referenced on the site
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
 
 collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "content/posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "projekte"
+    label: "Projekte"
+    files:
+      - name: "projektliste"
+        label: "Projektliste"
+        file: "data/start/projekte.json"
+        fields:
+          - label: "Projekte"
+            name: "Projekte"
+            widget: "list"
+            fields:
+              - { label: "Titel", name: "Titel", widget: "string" }
+              - { label: "Beschreibung", name: "Beschreibung", widget: "text" }
+              - { label: "Foto", name: "Foto", widget: "image", required: false }

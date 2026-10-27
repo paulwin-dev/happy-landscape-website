@@ -17,8 +17,8 @@ fetch('data/start/projekte.json')
         }
         return response.json();
     })
-    .then(function (projects) {
-        document.getElementById('g').innerHTML = projects.map(function (p) {
+    .then(function (data) {
+        document.getElementById('g').innerHTML = data.Projekte.map(function (p) {
             var image = p.Foto
                 ? '<img src="' + escapeHtml(p.Foto) + '" alt="' + escapeHtml(p.Titel) + '">'
                 : '';
