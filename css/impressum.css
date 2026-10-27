@@ -1,0 +1,104 @@
+/* impressum.css: styles for the legal information page. Load after root.css. */
+.legal-hero {
+    min-height: 48vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 140px 6vw 72px;
+    background:
+        linear-gradient(rgba(10, 30, 12, .58), rgba(10, 30, 12, .52)),
+        url("../data/photos/start/start.jpg") center 48% / cover no-repeat;
+}
+
+.legal-hero__content {
+    max-width: 760px;
+}
+
+.legal-hero h1 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(44px, 7vw, 82px);
+    line-height: 1.05;
+    margin: 18px 0;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, .35);
+}
+
+.legal-hero p {
+    margin: 0;
+    font-size: 19px;
+}
+
+.legal-content {
+    background: var(--soft);
+}
+
+.legal-content__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.legal-intro {
+    max-width: 680px;
+    margin: 0 auto 42px;
+    text-align: center;
+}
+
+.legal-intro .eyebrow {
+    color: var(--g);
+}
+
+.legal-intro p {
+    margin: 0;
+}
+
+.legal-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.legal-card {
+    padding: 28px;
+    background: var(--card);
+    border-top: 3px solid var(--lg);
+}
+
+.legal-card h3 {
+    margin: 0 0 14px;
+    color: var(--g);
+    font-size: 23px;
+}
+
+.legal-card p {
+    margin: 0 0 14px;
+}
+
+.legal-card p:last-child {
+    margin-bottom: 0;
+}
+
+.legal-card address {
+    margin-bottom: 16px;
+    font-style: normal;
+}
+
+.legal-card a {
+    text-decoration-color: var(--lg);
+    text-underline-offset: 3px;
+}
+
+@media(max-width:640px) {
+    .legal-hero {
+        min-height: 42vh;
+    }
+
+    .legal-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .legal-card {
+        padding: 24px;
+    }
+}
