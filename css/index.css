@@ -11,7 +11,7 @@
     color: #fff;
     padding: 140px 6vw 90px;
     overflow: hidden;
-    background: url("data/photos/start/start.jpg");
+    background: url("./data/photos/start/start.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
