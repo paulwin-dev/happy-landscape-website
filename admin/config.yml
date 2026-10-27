@@ -2,7 +2,7 @@ backend:
   name: github
   repo: paulwin-dev/happy-landscape-website
   branch: main
-  base_url: https://happy-landscape-oauth-proxy.workers.dev/   # see step 2
+  base_url: https://decap-proxy.happy-landscape-oauth-proxy.workers.dev/   # see step 2
 
 media_folder: "images/uploads"     # where uploads are saved in the repo
 public_folder: "/images/uploads"   # how they're referenced on the site
