@@ -9,6 +9,7 @@
     "titleEmphasis": "Ideen mit Zukunft.",
     "description": "Von der ersten Skizze bis zur fertigen Freianlage: Wir entwickeln durchdachte Lösungen, die Menschen und Natur zusammenbringen.",
     "cta": "Unsere Leistungen entdecken",
+    "consultationCta": "Jetzt Beraten Lassen",
     "notePrimary": "Garten · Landschaft",
     "noteSecondary": "Planung, die weiterdenkt"
   },
@@ -44,13 +45,6 @@
       "title": "Gut umsetzen",
       "description": "Wir begleiten Ihr Vorhaben verlässlich – vom Entwurf bis zur Umsetzung, passend zum vereinbarten Umfang."
     }
-  },
-  "cta": {
-    "eyebrow": "Ihr Projekt beginnt hier",
-    "heading": "Lust auf draußen, das sich richtig anfühlt?",
-    "description": "Erzählen Sie uns von Ihrem Vorhaben. Wir freuen uns darauf, Sie kennenzulernen.",
-    "button": "Kontakt aufnehmen",
-    "decoration": "Natur. Raum. Leben."
   },
   "consultation": {
     "eyebrow": "Persönlich · Nachhaltig · Vor Ort",

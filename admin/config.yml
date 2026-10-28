@@ -251,6 +251,7 @@ collections:
               - { label: "Betonte Überschrift", name: "titleEmphasis", widget: "string" }
               - { label: "Einleitung", name: "description", widget: "text" }
               - { label: "Button", name: "cta", widget: "string" }
+              - { label: "Beratungs-Button", name: "consultationCta", widget: "string" }
               - { label: "Zusatzinformation 1", name: "notePrimary", widget: "string" }
               - { label: "Zusatzinformation 2", name: "noteSecondary", widget: "string" }
           - label: "Einleitung"
@@ -298,15 +299,6 @@ collections:
                 fields:
                   - { label: "Titel", name: "title", widget: "string" }
                   - { label: "Beschreibung", name: "description", widget: "text" }
-          - label: "Abschluss-Aufruf"
-            name: "cta"
-            widget: "object"
-            fields:
-              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
-              - { label: "Überschrift", name: "heading", widget: "string" }
-              - { label: "Text", name: "description", widget: "text" }
-              - { label: "Button", name: "button", widget: "string" }
-              - { label: "Dekorativer Text", name: "decoration", widget: "string" }
           - label: "Gartenberatung"
             name: "consultation"
             widget: "object"
