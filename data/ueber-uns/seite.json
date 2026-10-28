@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "Über uns | Happy Landscape",
+    "description": "Lernen Sie das Team von Happy Landscape kennen."
+  },
+  "hero": {
+    "eyebrow": "Happy Landscape · Storkow/Mark",
+    "title": "Über uns",
+    "description": "Placeholder Placeholder Placeholder Placeholder Placeholder "
+  },
+  "team": {
+    "eyebrow": "Placeholder ",
+    "heading": "Placeholder Placeholder Placeholder Placeholder ",
+    "description": "Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder ",
+    "portraitAltPrefix": "Porträt von",
+    "loadingText": "Das Team wird geladen …",
+    "emptyText": "Unser Team stellt sich bald vor.",
+    "errorText": "Das Team konnte nicht geladen werden. Bitte versuchen Sie es später erneut."
+  }
+}

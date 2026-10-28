@@ -1,0 +1,108 @@
+.about-hero {
+    min-height: 48vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 140px 6vw 72px;
+    background:
+        linear-gradient(rgba(10, 30, 12, .58), rgba(10, 30, 12, .52)),
+        url("../images/uploads/start.jpg") center 48% / cover no-repeat;
+}
+
+.about-hero__content {
+    max-width: 760px;
+}
+
+.about-hero h1 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(44px, 7vw, 82px);
+    line-height: 1.05;
+    margin: 18px 0;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, .35);
+}
+
+.about-hero p {
+    margin: 0;
+    font-size: 19px;
+}
+
+.team {
+    background: var(--soft);
+}
+
+.team__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.team__intro {
+    max-width: 680px;
+    margin: 0 auto 42px;
+    text-align: center;
+}
+
+.team__intro .eyebrow {
+    color: var(--g);
+}
+
+.team__intro p {
+    margin: 0;
+}
+
+.team__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    gap: 20px;
+}
+
+.team__card {
+    overflow: hidden;
+    background: var(--card);
+    border-top: 3px solid var(--lg);
+}
+
+.team__card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.team__card-content {
+    padding: 24px;
+}
+
+.team__card h3 {
+    margin: 0 0 4px;
+    color: var(--g);
+    font-size: 25px;
+}
+
+.team__card p {
+    margin: 0;
+}
+
+.team__role {
+    margin-bottom: 12px !important;
+    font-size: 15px;
+    opacity: .8;
+}
+
+.team__status {
+    grid-column: 1 / -1;
+    margin: 0;
+    text-align: center;
+}
+
+@media(max-width:640px) {
+    .about-hero {
+        min-height: 42vh;
+    }
+
+    .team__card-content {
+        padding: 22px;
+    }
+}

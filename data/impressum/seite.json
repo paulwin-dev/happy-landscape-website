@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Impressum | Happy Landscape",
+    "description": "Impressum von Happy Landscape GmbH."
+  },
+  "hero": {
+    "eyebrow": "Happy Landscape · Storkow/Mark",
+    "title": "Impressum",
+    "description": "Alle wichtigen Angaben zu unserem Unternehmen auf einen Blick."
+  },
+  "content": {
+    "eyebrow": "Rechtliches",
+    "heading": "Anbieterkennzeichnung",
+    "description": "Die folgenden Angaben sind teilweise Platzhalter und müssen vor Veröffentlichung geprüft und ergänzt werden."
+  },
+  "provider": {
+    "heading": "Angaben gemäß § 5 DDG",
+    "representativeLabel": "Vertreten durch:",
+    "representative": "Platzhalter – vertretungsberechtigte Person ergänzen"
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "phoneLabel": "Telefon:",
+    "emailLabel": "E-Mail:",
+    "additionalPersonLabel": "Weitere Kontaktperson:"
+  },
+  "register": {
+    "heading": "Registereintrag",
+    "description": "Platzhalter – Registergericht und Registernummer ergänzen."
+  },
+  "tax": {
+    "heading": "Umsatzsteuer-ID",
+    "description": "Platzhalter – Umsatzsteuer-Identifikationsnummer ergänzen, sofern vorhanden."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Kontakt | Happy Landscape",
+    "description": "Kontaktieren Sie Happy Landscape in Storkow/Mark."
+  },
+  "hero": {
+    "eyebrow": "Happy Landscape · Storkow/Mark",
+    "title": "Kontakt",
+    "description": "Wir freuen uns auf Ihre Nachricht."
+  },
+  "contact": {
+    "eyebrow": "So erreichen Sie uns",
+    "phoneLabel": "Telefon:",
+    "emailLabel": "E-Mail:"
+  }
+}

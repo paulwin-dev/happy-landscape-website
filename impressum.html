@@ -4,64 +4,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Impressum von Happy Landscape GmbH.">
-  <title>Impressum | Happy Landscape</title>
+  <meta name="description" content="Impressum von Happy Landscape GmbH." data-cms-description="meta.description">
+  <title data-cms-text="meta.title">Impressum | Happy Landscape</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,400&family=DM+Sans:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="css/root.css">
   <link rel="stylesheet" href="css/impressum.css">
 </head>
 
-<body>
+<body data-cms-content-file="data/impressum/seite.json">
   <site-header></site-header>
 
   <main>
     <section class="legal-hero">
       <div class="legal-hero__content">
-        <div class="eyebrow">Happy Landscape · Storkow/Mark</div>
-        <h1>Impressum</h1>
-        <p>Alle wichtigen Angaben zu unserem Unternehmen auf einen Blick.</p>
+        <div class="eyebrow" data-cms-text="hero.eyebrow">Happy Landscape · Storkow/Mark</div>
+        <h1 data-cms-text="hero.title">Impressum</h1>
+        <p data-cms-text="hero.description">Alle wichtigen Angaben zu unserem Unternehmen auf einen Blick.</p>
       </div>
     </section>
 
     <section class="legal-content" aria-labelledby="legal-heading">
       <div class="legal-content__inner">
         <div class="legal-intro">
-          <div class="eyebrow">Rechtliches</div>
-          <h2 id="legal-heading">Anbieterkennzeichnung</h2>
-          <p>Die folgenden Angaben sind teilweise Platzhalter und müssen vor Veröffentlichung geprüft und ergänzt werden.</p>
+          <div class="eyebrow" data-cms-text="content.eyebrow">Rechtliches</div>
+          <h2 id="legal-heading" data-cms-text="content.heading">Anbieterkennzeichnung</h2>
+          <p data-cms-text="content.description">Die folgenden Angaben sind teilweise Platzhalter und müssen vor Veröffentlichung geprüft und ergänzt werden.</p>
         </div>
 
         <div class="legal-grid">
           <article class="legal-card">
-            <h3>Angaben gemäß § 5 DDG</h3>
+            <h3 data-cms-text="provider.heading">Angaben gemäß § 5 DDG</h3>
             <address>
-              <strong>Happy Landscape GmbH</strong><br>
-              Herweghstraße 2<br>
-              15859 Storkow/Mark
+              <strong data-cms-text="company.name">Happy Landscape GmbH</strong><br>
+              <span data-cms-text="company.address" data-cms-lines>Herweghstraße 2
+              15859 Storkow/Mark</span>
             </address>
-            <p><strong>Vertreten durch:</strong><br>Platzhalter – vertretungsberechtigte Person ergänzen</p>
+            <p><strong data-cms-text="provider.representativeLabel">Vertreten durch:</strong><br><span data-cms-text="provider.representative">Platzhalter – vertretungsberechtigte Person ergänzen</span></p>
           </article>
 
           <article class="legal-card">
-            <h3>Kontakt</h3>
+            <h3 data-cms-text="contact.heading">Kontakt</h3>
             <p>
-              <strong>Telefon:</strong> +49 33678 / 72 75 3<br>
-              <strong>E-Mail:</strong> <a href="mailto:m.sader@happy-landscape.de">m.sader@happy-landscape.de</a>
+              <strong data-cms-text="contact.phoneLabel">Telefon:</strong> <a data-cms-text="company.primaryContact.phone" data-cms-href="company.primaryContact.phoneHref" href="tel:+493367872753">+49 33678 / 72 75 3</a><br>
+              <strong data-cms-text="contact.emailLabel">E-Mail:</strong> <a data-cms-text="company.primaryContact.email" data-cms-href="company.primaryContact.emailHref" href="mailto:m.sader@happy-landscape.de">m.sader@happy-landscape.de</a>
             </p>
-            <p>Weitere Kontaktperson: Dipl.-Ing. Philipp Nenninger<br>
-              <a href="mailto:p.nenninger@happy-landscape.de">p.nenninger@happy-landscape.de</a>
+            <p><span data-cms-text="contact.additionalPersonLabel">Weitere Kontaktperson:</span> <span data-cms-text="company.secondaryContact.name">Dipl.-Ing. Philipp Nenninger</span><br>
+              <a data-cms-text="company.secondaryContact.email" data-cms-href="company.secondaryContact.emailHref" href="mailto:p.nenninger@happy-landscape.de">p.nenninger@happy-landscape.de</a>
             </p>
           </article>
 
           <article class="legal-card">
-            <h3>Registereintrag</h3>
-            <p>Platzhalter – Registergericht und Registernummer ergänzen.</p>
+            <h3 data-cms-text="register.heading">Registereintrag</h3>
+            <p data-cms-text="register.description">Platzhalter – Registergericht und Registernummer ergänzen.</p>
           </article>
 
           <article class="legal-card">
-            <h3>Umsatzsteuer-ID</h3>
-            <p>Platzhalter – Umsatzsteuer-Identifikationsnummer ergänzen, sofern vorhanden.</p>
+            <h3 data-cms-text="tax.heading">Umsatzsteuer-ID</h3>
+            <p data-cms-text="tax.description">Platzhalter – Umsatzsteuer-Identifikationsnummer ergänzen, sofern vorhanden.</p>
           </article>
         </div>
       </div>

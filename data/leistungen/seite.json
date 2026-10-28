@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Leistungen | Happy Landscape",
+    "description": "Entdecken Sie die Leistungen von Happy Landscape für Garten- und Landschaftsplanung."
+  },
+  "hero": {
+    "eyebrow": "Happy Landscape · Storkow/Mark",
+    "title": "Räume im Grünen.",
+    "titleEmphasis": "Ideen mit Zukunft.",
+    "description": "Von der ersten Skizze bis zur fertigen Freianlage: Wir entwickeln durchdachte Lösungen, die Menschen und Natur zusammenbringen.",
+    "cta": "Unsere Leistungen entdecken",
+    "notePrimary": "Garten · Landschaft",
+    "noteSecondary": "Planung, die weiterdenkt"
+  },
+  "intro": {
+    "eyebrow": "Was wir für Sie tun",
+    "mark": "HL",
+    "heading": "Gute Außenräume beginnen mit guten Fragen.",
+    "description": "Jeder Ort ist anders. Deshalb hören wir zuerst zu, verstehen Ihre Wünsche und die Besonderheiten des Grundstücks – und machen daraus einen klaren, stimmigen Plan.",
+    "cta": "Lassen Sie uns sprechen"
+  },
+  "services": {
+    "eyebrow": "Unsere Kompetenzen",
+    "heading": "Von der Idee bis zum Lieblingsort.",
+    "description": "Wählen Sie, was Sie vorhaben. Wir bringen den passenden Blick und die Erfahrung für den nächsten Schritt mit.",
+    "loadingText": "Unsere Leistungen werden geladen …",
+    "emptyText": "Unsere Leistungen werden in Kürze vorgestellt.",
+    "errorText": "Die Leistungen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+    "cardCta": "Projekt besprechen"
+  },
+  "approach": {
+    "eyebrow": "Zusammenarbeit",
+    "heading": "Ein guter Plan wächst Schritt für Schritt.",
+    "description": "Transparent, persönlich und immer mit Blick auf das Ganze.",
+    "step1": {
+      "title": "Erst verstehen",
+      "description": "Wir sprechen über Ihre Wünsche, die Nutzung und die Möglichkeiten des Ortes."
+    },
+    "step2": {
+      "title": "Klar planen",
+      "description": "Aus den Ideen entwickeln wir ein stimmiges Konzept und stimmen die nächsten Schritte mit Ihnen ab."
+    },
+    "step3": {
+      "title": "Gut umsetzen",
+      "description": "Wir begleiten Ihr Vorhaben verlässlich – vom Entwurf bis zur Umsetzung, passend zum vereinbarten Umfang."
+    }
+  },
+  "cta": {
+    "eyebrow": "Ihr Projekt beginnt hier",
+    "heading": "Lust auf draußen, das sich richtig anfühlt?",
+    "description": "Erzählen Sie uns von Ihrem Vorhaben. Wir freuen uns darauf, Sie kennenzulernen.",
+    "button": "Kontakt aufnehmen",
+    "decoration": "Natur. Raum. Leben."
+  },
+  "consultation": {
+    "eyebrow": "Persönlich · Nachhaltig · Vor Ort",
+    "heading": "90-Minütige Gartenberatung",
+    "description": "Sie möchten Ihren Garten naturnah und ökologisch gestalten? Erzählen Sie uns kurz von Ihrem Anliegen. Wir melden uns mit zwei Terminvorschlägen für einen Termin vor Ort.",
+    "duration": "90 Minuten · Beratung vor Ort"
+  },
+  "form": {
+    "subject": "Anfrage: 90-minütige Gartenberatung",
+    "nameLabel": "Name",
+    "emailLabel": "E-Mail-Adresse",
+    "phoneLabel": "Telefonnummer",
+    "areaLabel": "Wohnbereich",
+    "areas": [
+      {
+        "label": "AB",
+        "value": "AB"
+      },
+      {
+        "label": "C",
+        "value": "C"
+      }
+    ],
+    "messageLabel": "Ihre Nachricht",
+    "defaultMessage": "An das Rund um den Garten-Team,\nich interessiere mich für Ihre 90-minütige nachhaltige Gartenberatung zur naturnahen und ökologischen Gestaltung meines Gartens und möchte gerne einen Termin vor Ort vereinbaren. Bitte senden Sie mir zwei Terminvorschläge.\n\nVielen Dank und freundliche Grüße",
+    "consentPrefix": "Ich habe die",
+    "privacyLink": "Datenschutzerklärung",
+    "consentSuffix": "gelesen und willige ein, dass meine Angaben zur Bearbeitung der Anfrage verarbeitet werden.",
+    "requiredText": "Pflichtfeld",
+    "submitLabel": "Beratung anfragen",
+    "spamNotePrefix": "Zum Schutz vor Spam ist reCAPTCHA für dieses Formular in Formspree aktiviert. Es gelten die",
+    "googlePrivacyLink": "Datenschutzbestimmungen",
+    "spamNoteMiddle": "und",
+    "googleTermsLink": "Nutzungsbedingungen",
+    "spamNoteSuffix": "von Google."
+  }
+}

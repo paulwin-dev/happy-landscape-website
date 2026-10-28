@@ -1,0 +1,41 @@
+{
+  "company": {
+    "name": "Happy Landscape GmbH",
+    "brandName": "happy landscape",
+    "tagline": "Garten- & Landschaftsplanung",
+    "logoAlt": "Happy Landscape",
+    "address": "Herweghstraße 2\n15859 Storkow/Mark",
+    "primaryContact": {
+      "name": "Dipl.-Ing. Maria Sader",
+      "phone": "+49 33678 / 72 75 3",
+      "phoneHref": "tel:+493367872753",
+      "mobile": "+49 179 / 977 25 70",
+      "mobileHref": "tel:+491799772570",
+      "email": "m.sader@happy-landscape.de",
+      "emailHref": "mailto:m.sader@happy-landscape.de"
+    },
+    "secondaryContact": {
+      "name": "Dipl.-Ing. Philipp Nenninger",
+      "phone": "+49 30 / 48 09 80 33",
+      "phoneHref": "tel:+493048098033",
+      "mobile": "+49 173 / 241 51 06",
+      "mobileHref": "tel:+491732415106",
+      "email": "p.nenninger@happy-landscape.de",
+      "emailHref": "mailto:p.nenninger@happy-landscape.de"
+    }
+  },
+  "navigation": {
+    "ariaLabel": "Hauptmenü",
+    "about": "Über Uns",
+    "services": "Leistungen",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "phoneLabel": "Tel.",
+    "mobileLabel": "Mobil",
+    "copyright": "© 2026 Happy Landscape GmbH",
+    "legalNavigationLabel": "Rechtliches",
+    "imprintLabel": "Impressum",
+    "privacyLabel": "Datenschutz"
+  }
+}

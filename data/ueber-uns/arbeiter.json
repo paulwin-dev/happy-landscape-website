@@ -1,0 +1,16 @@
+{
+  "Mitarbeiter": [
+    {
+      "Name": "Maria Sader",
+      "Funktion": "Dipl.-Ing.",
+      "Foto": "images/uploads/start.jpg",
+      "Beschreibung": "Placeholder Placeholder "
+    },
+    {
+      "Name": "Philipp Nenninger",
+      "Funktion": "Dipl.-Ing.",
+      "Foto": "",
+      "Beschreibung": "Placeholder Placeholder "
+    }
+  ]
+}

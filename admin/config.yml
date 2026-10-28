@@ -8,6 +8,340 @@ media_folder: "images/uploads"
 public_folder: "images/uploads"
 
 collections:
+  - name: "website"
+    label: "Website allgemein"
+    files:
+      - name: "shared-content"
+        label: "Navigation, Firma und Fußzeile"
+        file: "data/generell/website.json"
+        fields:
+          - label: "Unternehmen"
+            name: "company"
+            widget: "object"
+            fields:
+              - { label: "Firmenname", name: "name", widget: "string" }
+              - { label: "Markenname", name: "brandName", widget: "string" }
+              - { label: "Leistungsbeschreibung", name: "tagline", widget: "string" }
+              - { label: "Alternativtext Logo", name: "logoAlt", widget: "string" }
+              - { label: "Anschrift (eine Zeile pro Zeile)", name: "address", widget: "text" }
+              - label: "Primäre Kontaktperson"
+                name: "primaryContact"
+                widget: "object"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Telefon (Anzeige)", name: "phone", widget: "string" }
+                  - { label: "Telefon-Link", name: "phoneHref", widget: "string" }
+                  - { label: "Mobil (Anzeige)", name: "mobile", widget: "string" }
+                  - { label: "Mobil-Link", name: "mobileHref", widget: "string" }
+                  - { label: "E-Mail", name: "email", widget: "string" }
+                  - { label: "E-Mail-Link", name: "emailHref", widget: "string" }
+              - label: "Weitere Kontaktperson"
+                name: "secondaryContact"
+                widget: "object"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Telefon (Anzeige)", name: "phone", widget: "string" }
+                  - { label: "Telefon-Link", name: "phoneHref", widget: "string" }
+                  - { label: "Mobil (Anzeige)", name: "mobile", widget: "string" }
+                  - { label: "Mobil-Link", name: "mobileHref", widget: "string" }
+                  - { label: "E-Mail", name: "email", widget: "string" }
+                  - { label: "E-Mail-Link", name: "emailHref", widget: "string" }
+          - label: "Navigation"
+            name: "navigation"
+            widget: "object"
+            fields:
+              - { label: "Barrierefreiheitsname", name: "ariaLabel", widget: "string" }
+              - { label: "Über uns", name: "about", widget: "string" }
+              - { label: "Leistungen", name: "services", widget: "string" }
+              - { label: "Kontakt", name: "contact", widget: "string" }
+          - label: "Fußzeile"
+            name: "footer"
+            widget: "object"
+            fields:
+              - { label: "Telefon-Präfix", name: "phoneLabel", widget: "string" }
+              - { label: "Mobil-Präfix", name: "mobileLabel", widget: "string" }
+              - { label: "Copyright", name: "copyright", widget: "string" }
+              - { label: "Barrierefreiheitsname Rechtliches", name: "legalNavigationLabel", widget: "string" }
+              - { label: "Linktext Impressum", name: "imprintLabel", widget: "string" }
+              - { label: "Linktext Datenschutz", name: "privacyLabel", widget: "string" }
+  - name: "seiten"
+    label: "Seiteninhalte"
+    files:
+      - name: "startseite"
+        label: "Startseite"
+        file: "data/start/startseite.json"
+        fields:
+          - label: "Suchmaschinenangaben"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Seitentitel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Kopfbereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+              - { label: "Primärer Button", name: "primaryCta", widget: "string" }
+              - { label: "Sekundärer Button", name: "secondaryCta", widget: "string" }
+          - label: "Einleitung"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "description", widget: "text" }
+          - label: "Themen"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Text", name: "description", widget: "text" }
+          - label: "Projekte"
+            name: "projects"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Keine Projekte", name: "emptyText", widget: "string" }
+              - { label: "Fehlermeldung", name: "errorText", widget: "string" }
+      - name: "ueber-uns-seite"
+        label: "Über uns – Seitentexte"
+        file: "data/ueber-uns/seite.json"
+        fields:
+          - label: "Suchmaschinenangaben"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Seitentitel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Kopfbereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+          - label: "Team-Bereich"
+            name: "team"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "description", widget: "text" }
+              - { label: "Alternativtext-Präfix für Porträts", name: "portraitAltPrefix", widget: "string" }
+              - { label: "Ladehinweis", name: "loadingText", widget: "string" }
+              - { label: "Hinweis bei leerer Liste", name: "emptyText", widget: "string" }
+              - { label: "Fehlermeldung", name: "errorText", widget: "string" }
+      - name: "kontakt"
+        label: "Kontaktseite"
+        file: "data/kontakt/seite.json"
+        fields:
+          - label: "Suchmaschinenangaben"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Seitentitel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Kopfbereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+          - label: "Kontaktbereich"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Telefon-Label", name: "phoneLabel", widget: "string" }
+              - { label: "E-Mail-Label", name: "emailLabel", widget: "string" }
+      - name: "impressum"
+        label: "Impressum"
+        file: "data/impressum/seite.json"
+        fields:
+          - label: "Suchmaschinenangaben"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Seitentitel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Kopfbereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+          - label: "Einleitung"
+            name: "content"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "description", widget: "text" }
+          - label: "Anbieter"
+            name: "provider"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Label Vertretungsberechtigte", name: "representativeLabel", widget: "string" }
+              - { label: "Vertretungsberechtigte Person", name: "representative", widget: "string" }
+          - label: "Kontaktangaben"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Telefon-Label", name: "phoneLabel", widget: "string" }
+              - { label: "E-Mail-Label", name: "emailLabel", widget: "string" }
+              - { label: "Label weitere Kontaktperson", name: "additionalPersonLabel", widget: "string" }
+          - label: "Registereintrag"
+            name: "register"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Angaben", name: "description", widget: "text" }
+          - label: "Umsatzsteuer-ID"
+            name: "tax"
+            widget: "object"
+            fields:
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Angaben", name: "description", widget: "text" }
+      - name: "datenschutz"
+        label: "Datenschutz"
+        file: "data/datenschutz/seite.json"
+        fields:
+          - label: "Suchmaschinenangaben"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Seitentitel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Kopfbereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+          - label: "Inhalt"
+            name: "content"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "description", widget: "text" }
+      - name: "leistungen-seite"
+        label: "Leistungen – Seitentexte und Beratung"
+        file: "data/leistungen/seite.json"
+        fields:
+          - label: "Suchmaschinenangaben"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Seitentitel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Kopfbereich"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "title", widget: "string" }
+              - { label: "Betonte Überschrift", name: "titleEmphasis", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+              - { label: "Button", name: "cta", widget: "string" }
+              - { label: "Zusatzinformation 1", name: "notePrimary", widget: "string" }
+              - { label: "Zusatzinformation 2", name: "noteSecondary", widget: "string" }
+          - label: "Einleitung"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Dekoratives Kürzel", name: "mark", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "description", widget: "text" }
+              - { label: "Linktext", name: "cta", widget: "string" }
+          - label: "Leistungsübersicht"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+              - { label: "Ladehinweis", name: "loadingText", widget: "string" }
+              - { label: "Hinweis bei leerer Liste", name: "emptyText", widget: "string" }
+              - { label: "Fehlermeldung", name: "errorText", widget: "string" }
+              - { label: "Leistungs-Linktext", name: "cardCta", widget: "string" }
+          - label: "Zusammenarbeit"
+            name: "approach"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Einleitung", name: "description", widget: "text" }
+              - label: "Schritt 1"
+                name: "step1"
+                widget: "object"
+                fields:
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "text" }
+              - label: "Schritt 2"
+                name: "step2"
+                widget: "object"
+                fields:
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "text" }
+              - label: "Schritt 3"
+                name: "step3"
+                widget: "object"
+                fields:
+                  - { label: "Titel", name: "title", widget: "string" }
+                  - { label: "Beschreibung", name: "description", widget: "text" }
+          - label: "Abschluss-Aufruf"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Text", name: "description", widget: "text" }
+              - { label: "Button", name: "button", widget: "string" }
+              - { label: "Dekorativer Text", name: "decoration", widget: "string" }
+          - label: "Gartenberatung"
+            name: "consultation"
+            widget: "object"
+            fields:
+              - { label: "Dachzeile", name: "eyebrow", widget: "string" }
+              - { label: "Überschrift", name: "heading", widget: "string" }
+              - { label: "Beschreibung", name: "description", widget: "text" }
+              - { label: "Dauerhinweis", name: "duration", widget: "string" }
+          - label: "Beratungsformular"
+            name: "form"
+            widget: "object"
+            fields:
+              - { label: "E-Mail-Betreff", name: "subject", widget: "string" }
+              - { label: "Name-Label", name: "nameLabel", widget: "string" }
+              - { label: "E-Mail-Label", name: "emailLabel", widget: "string" }
+              - { label: "Telefon-Label", name: "phoneLabel", widget: "string" }
+              - { label: "Wohnbereich-Label", name: "areaLabel", widget: "string" }
+              - label: "Wohnbereich-Auswahl"
+                name: "areas"
+                widget: "list"
+                fields:
+                  - { label: "Anzeigetext", name: "label", widget: "string" }
+                  - { label: "Formularwert", name: "value", widget: "string" }
+              - { label: "Nachrichten-Label", name: "messageLabel", widget: "string" }
+              - { label: "Vorausgefüllte Nachricht", name: "defaultMessage", widget: "text" }
+              - { label: "Einwilligung Einleitung", name: "consentPrefix", widget: "string" }
+              - { label: "Datenschutz-Linktext", name: "privacyLink", widget: "string" }
+              - { label: "Einwilligung Text", name: "consentSuffix", widget: "text" }
+              - { label: "Pflichtfeld-Hinweis", name: "requiredText", widget: "string" }
+              - { label: "Buttontext", name: "submitLabel", widget: "string" }
+              - { label: "Spam-Hinweis (Anfang)", name: "spamNotePrefix", widget: "text" }
+              - { label: "Google-Datenschutz-Linktext", name: "googlePrivacyLink", widget: "string" }
+              - { label: "Spam-Hinweis (Verbindung)", name: "spamNoteMiddle", widget: "string" }
+              - { label: "Google-Nutzungsbedingungen-Linktext", name: "googleTermsLink", widget: "string" }
+              - { label: "Spam-Hinweis (Ende)", name: "spamNoteSuffix", widget: "string" }
   - name: "projekte"
     label: "Projekte"
     files:
@@ -17,6 +351,36 @@ collections:
         fields:
           - label: "Projekte"
             name: "Projekte"
+            widget: "list"
+            fields:
+              - { label: "Titel", name: "Titel", widget: "string" }
+              - { label: "Beschreibung", name: "Beschreibung", widget: "text" }
+              - { label: "Foto", name: "Foto", widget: "image", required: false }
+  - name: "ueber-uns"
+    label: "Über uns"
+    files:
+      - name: "arbeiter"
+        label: "Mitarbeiter"
+        file: "data/ueber-uns/arbeiter.json"
+        fields:
+          - label: "Mitarbeiter"
+            name: "Mitarbeiter"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "Name", widget: "string" }
+              - { label: "Funktion", name: "Funktion", widget: "string", required: false }
+              - { label: "Beschreibung", name: "Beschreibung", widget: "text", required: false }
+              - { label: "Foto", name: "Foto", widget: "image", required: false }
+
+  - name: "leistungen"
+    label: "Leistungen"
+    files:
+      - name: "leistungsliste"
+        label: "Leistungsliste"
+        file: "data/leistungen/leistungen.json"
+        fields:
+          - label: "Leistungen"
+            name: "Leistungen"
             widget: "list"
             fields:
               - { label: "Titel", name: "Titel", widget: "string" }

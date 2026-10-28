@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Happy Landscape | Garten- & Landschaftsplanung",
+    "description": "Happy Landscape – Garten- und Landschaftsplanung."
+  },
+  "hero": {
+    "eyebrow": "Garten- & Landschaftsplanung · Storkow/Mark",
+    "title": "Placeholder Placeholder Placeholder Placeholder ",
+    "description": "Placeholder",
+    "primaryCta": "Jetzt Beraten Lassen",
+    "secondaryCta": "Projekte Ansehen"
+  },
+  "intro": {
+    "heading": "Placeholder",
+    "description": "Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder "
+  },
+  "features": [
+    {
+      "title": "Placeholder",
+      "description": "Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder "
+    },
+    {
+      "title": "Placeholder",
+      "description": "Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder "
+    },
+    {
+      "title": "Placeholder",
+      "description": "Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder "
+    }
+  ],
+  "projects": {
+    "heading": "Ausgewählte Projekte",
+    "emptyText": "Unsere Projekte werden in Kürze vorgestellt.",
+    "errorText": "Die Projekte konnten nicht geladen werden. Bitte versuchen Sie es später erneut."
+  }
+}

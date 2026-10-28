@@ -1,0 +1,24 @@
+{
+  "Leistungen": [
+    {
+      "Titel": "Gartenplanung",
+      "Beschreibung": "Wir entwickeln individuelle Gartenkonzepte, die Ihre Wünsche, den Charakter des Grundstücks und die Anforderungen des Alltags zusammenbringen.",
+      "Foto": "images/uploads/Garten.jpg"
+    },
+    {
+      "Titel": "Landschaftsplanung",
+      "Beschreibung": "Wir planen Freiräume mit Weitblick und verbinden Nutzung, Gestaltung und die Besonderheiten des jeweiligen Ortes zu einem stimmigen Ganzen.",
+      "Foto": "images/uploads/start.jpg"
+    },
+    {
+      "Titel": "Freiraumgestaltung",
+      "Beschreibung": "Ob Wege, Aufenthaltsbereiche oder Bepflanzung – wir gestalten Außenräume, die einladend sind und sich selbstverständlich in ihre Umgebung einfügen.",
+      "Foto": "images/uploads/Garten.jpg"
+    },
+    {
+      "Titel": "Projektbegleitung",
+      "Beschreibung": "Von der Weiterentwicklung des Entwurfs bis zur Abstimmung der nächsten Schritte behalten wir Ihre Ziele im Blick und begleiten das Vorhaben verlässlich.",
+      "Foto": "images/uploads/start.jpg"
+    }
+  ]
+}
